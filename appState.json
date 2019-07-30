@@ -8,8 +8,7 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "86ecb527-eda5-4c1f-8410-0cda782029a5",
-          "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8"
+          "86ecb527-eda5-4c1f-8410-0cda782029a5"
         ],
         "isRemovable": false,
         "filePath": "ayyo"
@@ -32,32 +31,15 @@
           "layers": []
         },
         "triggers": []
-      },
-      "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8": {
-        "id": "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8",
-        "parent": "7a8fed14-1630-4004-a46e-40109cd78f7c",
-        "name": "new1.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "ayyo/new1.js",
-        "code": "exports.handler = function(event, context, callback) {\n    //new1\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "ayyo/new2.js",
+      "ayyo/new1.js"
+    ],
     "rootNode": "7a8fed14-1630-4004-a46e-40109cd78f7c",
     "openFiles": [
-      "86ecb527-eda5-4c1f-8410-0cda782029a5",
-      "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8"
+      "86ecb527-eda5-4c1f-8410-0cda782029a5"
     ],
     "currentFileId": "86ecb527-eda5-4c1f-8410-0cda782029a5",
     "resources": {},
@@ -86,14 +68,19 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564472530446
+    "lastSave": 1564472610925
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "ayyo",
       "url": "https://github.com/Kumudikatest/ayyo",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "0844cf5d4d525e0aa0e9518564298a35106bb669"
+        }
+      ]
     }
   }
 }
