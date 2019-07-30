@@ -1,0 +1,99 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7a8fed14-1630-4004-a46e-40109cd78f7c": {
+        "id": "7a8fed14-1630-4004-a46e-40109cd78f7c",
+        "parent": null,
+        "name": "ayyo",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "86ecb527-eda5-4c1f-8410-0cda782029a5",
+          "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8"
+        ],
+        "isRemovable": false,
+        "filePath": "ayyo"
+      },
+      "86ecb527-eda5-4c1f-8410-0cda782029a5": {
+        "id": "86ecb527-eda5-4c1f-8410-0cda782029a5",
+        "parent": "7a8fed14-1630-4004-a46e-40109cd78f7c",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ayyo/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    //initial lambda\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8": {
+        "id": "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8",
+        "parent": "7a8fed14-1630-4004-a46e-40109cd78f7c",
+        "name": "new1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ayyo/new1.js",
+        "code": "exports.handler = function(event, context, callback) {\n    //new1\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "7a8fed14-1630-4004-a46e-40109cd78f7c",
+    "openFiles": [
+      "86ecb527-eda5-4c1f-8410-0cda782029a5",
+      "41dd4b38-011c-4efd-8efb-1f8ea1c1bba8"
+    ],
+    "currentFileId": "86ecb527-eda5-4c1f-8410-0cda782029a5",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ayyo",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564472530446
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ayyo",
+      "url": "https://github.com/Kumudikatest/ayyo",
+      "branches": []
+    }
+  }
+}
